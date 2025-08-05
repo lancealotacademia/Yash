@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yash Jatinbhai Vora - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in {
+      animation: fadeInUp 1s ease-out forwards;
+    }
+    .glow {
+      box-shadow: 0 0 10px rgba(59, 130, 246, 0.6), 0 0 20px rgba(59, 130, 246, 0.4);
+    }
+    .card {
+      background: linear-gradient(145deg, #1f2937, #111827);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white font-sans">
+  <main>
+    <header class="p-10 text-center border-b border-gray-700 animate-fade-in">
+      <h1 class="text-5xl font-extrabold tracking-wide text-blue-400 drop-shadow-md glow">Yash Jatinbhai Vora</h1>
+      <p class="text-gray-300 mt-2 text-xl">Hotel Management Graduate | Front Office Professional</p>
+      <p class="mt-2 text-sm text-gray-400">Navsari, Gujarat - 396445 | 6354182387 | yashvora210@gmail.com</p>
+    </header>
+
+    <section class="p-10 max-w-6xl mx-auto space-y-12">
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="card p-6 rounded-3xl shadow-2xl transition-all duration-300 transform hover:scale-105">
+          <h2 class="text-2xl font-bold mb-4 text-blue-300">Objective</h2>
+          <p class="text-gray-300 leading-relaxed">Enthusiastic and well-groomed hotel management graduate seeking a Front Office Associate position. Eager to apply hospitality knowledge, guest service skills, and professionalism to deliver memorable guest experiences while learning and growing in a reputed hotel environment.</p>
+        </div>
+
+        <div class="card p-6 rounded-3xl shadow-2xl transition-all duration-300 transform hover:scale-105">
+          <h2 class="text-2xl font-bold mb-4 text-blue-300">Experience</h2>
+          <p class="text-gray-300 font-medium text-lg">Renaissance Race Course Hotel, Bengaluru</p>
+          <p class="text-gray-400 text-sm mb-3">Trainee | July 2023 - December 2023</p>
+          <ul class="list-disc list-inside text-gray-300 space-y-1">
+            <li>Handled calls and guest inquiries professionally</li>
+            <li>Coordinated with departments for smooth guest service</li>
+            <li>Maintained records and supported front desk operations</li>
+            <li>Learned Hotel SOPs</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="card p-6 rounded-3xl shadow-2xl transition-all duration-300 transform hover:scale-105">
+          <h2 class="text-2xl font-bold mb-4 text-purple-300">Education</h2>
+          <ul class="text-gray-300 space-y-2">
+            <li><strong class="text-blue-300">Asia Pacific Institute of Hotel Management</strong> (2022–2026)</li>
+            <li><strong class="text-blue-300">Bhaktashram School</strong> (Intermediate - 2022)</li>
+            <li><strong class="text-blue-300">Bhaktashram School</strong> (Matriculation - 2020)</li>
+          </ul>
+        </div>
+
+        <div class="card p-6 rounded-3xl shadow-2xl transition-all duration-300 transform hover:scale-105">
+          <h2 class="text-2xl font-bold mb-4 text-purple-300">Skills</h2>
+          <div class="text-gray-300 space-y-2">
+            <p><strong class="text-green-300">Hard Skills:</strong> Microsoft Office, POS (Basic)</p>
+            <p><strong class="text-green-300">Soft Skills:</strong> Guest Handling, Professional Grooming, Problem-Solving, Teamwork</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="card p-6 rounded-3xl shadow-2xl transition-all duration-300 transform hover:scale-105">
+          <h2 class="text-2xl font-bold mb-4 text-pink-300">Achievements</h2>
+          <ul class="text-gray-300 list-disc list-inside">
+            <li>Appreciation Certificate in Front Office Department from Renaissance Hotel</li>
+          </ul>
+        </div>
+
+        <div class="card p-6 rounded-3xl shadow-2xl transition-all duration-300 transform hover:scale-105">
+          <h2 class="text-2xl font-bold mb-4 text-pink-300">Languages</h2>
+          <p class="text-gray-300">English, Hindi, Gujarati</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center text-gray-500 text-sm py-6 border-t border-gray-700 mt-12 animate-fade-in">
+      &copy; <script>document.write(new Date().getFullYear());</script> Yash Jatinbhai Vora. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
